@@ -1,11 +1,13 @@
 # Dashboard for MVC - How to store dashboard state in the dashboard layout
 
-This example illustrates how to impelemt a [Custom Property](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties) to save the [Dashboard State](https://docs.devexpress.com/Dashboard/119765/web-dashboard/aspnet-mvc-dashboard-extension/manage-dashboard-state) along with the dashboard layout (XML).
+This example illustrates how to create and store a [custom property](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties) to save the [Dashboard State](https://docs.devexpress.com/Dashboard/119765/web-dashboard/aspnet-mvc-dashboard-extension/manage-dashboard-state) along with the dashboard layout (XML).
 
-The `DashboardState` Custom Property is defined at the Dashboard level. You can find a basic example of this usage scenario in this article: [Dashboard Description - Custom Property](https://docs.devexpress.com/Dashboard/401710/web-dashboard/ui-elements-and-customization/create-custom-properties/dashboard-description-custom-property). The only specificy of this example is that the following extra events are handled on the client side:
+The `DashboardState` custom property is stored at the Dashboard level. The following events are handled on the client side:
 
-* [DashboardControl.onDashboardInitialized](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_ondashboardinitialized) - to initialize the dashboard state from a custom property.
+* [DashboardControl.onDashboardInitialized](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_ondashboardinitialized) - to read the dashboard state from a custom property.
 * [DashboardControl.onDashboardStateChanged](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_ondashboardstatechanged) - to save the changed dashboard state to a custom property.
+
+You can also view the following article for information on how to store custom property value at the Dashboard level: [Dashboard Description - Custom Property](https://docs.devexpress.com/Dashboard/401710/web-dashboard/ui-elements-and-customization/create-custom-properties/dashboard-description-custom-property). 
 
 <!-- default file list -->
 ## Files to Look at
