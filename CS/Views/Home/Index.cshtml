@@ -3,7 +3,6 @@
 <script>
     function onBeforeRender(sender) {
         var control = sender.GetDashboardControl();
-
         control.registerExtension(new DashboardStateExtension(control))
     }
 </script>
