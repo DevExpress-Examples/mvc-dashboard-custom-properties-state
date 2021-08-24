@@ -7,7 +7,7 @@ The `DashboardState` custom property is stored at the Dashboard level. The follo
 * [DashboardControl.onDashboardInitialized](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_ondashboardinitialized) - to read the dashboard state from a custom property.
 * [DashboardControl.onDashboardStateChanged](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_ondashboardstatechanged) - to save the changed dashboard state to a custom property.
 
-You can also view the following article for information on how to store custom property value at the Dashboard level: [Dashboard Description - Custom Property](https://docs.devexpress.com/Dashboard/401710/web-dashboard/ui-elements-and-customization/create-custom-properties/dashboard-description-custom-property). 
+See the following article for information on how to store a custom property value at the Dashboard level: [Dashboard Description - Custom Property](https://docs.devexpress.com/Dashboard/401710/web-dashboard/ui-elements-and-customization/create-custom-properties/dashboard-description-custom-property).
 
 <!-- default file list -->
 ## Files to Look at
