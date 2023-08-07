@@ -79,7 +79,7 @@
 
                         dashboardControl.setDashboardState(cpState);
 
-                        var viewerApiExtension = dashboardControl.findExtension('viewer-api');
+                        var viewerApiExtension = dashboardControl.findExtension('viewerApi');
                         if (viewerApiExtension) {
                             viewerApiExtension.updateDashboardTitleToolbar();
                         }
@@ -128,7 +128,7 @@
         this.stop = function () {
             dashboardControl.off("dashboardStateChanged", onDashboardStateChanged);
 
-            var viewerApiExtension = dashboardControl.findExtension('viewer-api');
+            var viewerApiExtension = dashboardControl.findExtension('viewerApi');
             if (viewerApiExtension) {
                 viewerApiExtension.off('dashboardTitleToolbarUpdated', onDashboardTitleToolbarUpdated);
             }
