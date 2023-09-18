@@ -15,7 +15,7 @@ The `DashboardState` custom property is stored at the Dashboard level. The follo
 See the following article for information on how to store a custom property value at the Dashboard level: [Dashboard Description - Custom Property](https://docs.devexpress.com/Dashboard/401710/web-dashboard/ui-elements-and-customization/create-custom-properties/dashboard-description-custom-property).
 
 <!-- default file list -->
-## Files to Look at
+## Files to Review
 
 * [DashboardConfig.cs](./CS/App_Start/DashboardConfig.cs)
 * [Index.cshtml](./CS/Views/Home/Index.cshtml)
