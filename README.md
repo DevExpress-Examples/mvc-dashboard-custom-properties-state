@@ -38,7 +38,7 @@ See the following article for information on how to store a custom property valu
 - [Dashboard for ASP.NET Core - How to implement dependent custom properties in a custom item](https://github.com/DevExpress-Examples/CustomItemDependentProperties)
 - [Dashboard for MVC - How to customize a dashboard before displaying it in a browser](https://github.com/DevExpress-Examples/how-to-customize-a-dashboard-before-displaying-it-in-a-browser-t596822)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-dashboard-custom-properties-state&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-dashboard-custom-properties-state&~~~was_helpful=no)
 
